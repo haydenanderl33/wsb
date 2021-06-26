@@ -1,27 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-// import firebase from 'firebase';
-function App() {
-//  console.log(firebase)
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Homepage from './components/Homepage/homepage-index';
+import Aboutpage from './components/Aboutpage/aboutpage-index';
+import AcaiMenupage from './components/AcaiMenupage/acai-menupage-index';
+import PitayaMenupage from './components/PitayaMenuPage/pitaya-menu-index';
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React Boi
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+
+  return(
+    <Router>
+      <Switch>
+        <Route exact path='/' component={Homepage} />
+        <Route path='/menu/açaí-bowls' component={AcaiMenupage} />
+        <Route path='/menu/pitaya-bowls' component={PitayaMenupage} />
+        <Route path='/about' component={Aboutpage} />
+      </Switch>
+    </Router>
+  )
 }
 
 export default App;
