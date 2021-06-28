@@ -30,7 +30,7 @@ export const SidebarWrapper = styled.div`
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-rows: repeat(6, 108px);
+  grid-template-rows: repeat(6, 80px);
   transition: transform 1s;
 transform: ${({ shift }) => (shift ? "translate(0,-20px)" : "0")};
 `;
