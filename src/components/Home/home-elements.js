@@ -42,7 +42,7 @@ export const Section1Container = styled.div`
 `;
 export const Section1H1 = styled.h1`
   color: #ffffff;
-  font-family: "Dancing Script", cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 96px;
   font: bold;
   display: flex;
@@ -58,7 +58,7 @@ export const Section1H1 = styled.h1`
 `;
 
 export const Section1H2 = styled.h2`
-  font-family: "Dancing Script", cursive;
+ font-family: 'Dancing Script', cursive;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -123,28 +123,4 @@ export const ShortArrow = styled(Arrow)`
 `;
 export const LongArrow = styled(Arrow2)`
   color: #ffffff;
-`;
-export const HomeSection2 = styled.div`
-  height: auto;
-  width: 100%;
-`;
-export const PlaceholderContainer = styled.div`
-height: auto;
-width: 100%;
-background: #B2CEEC ;
-`;
-export const PlaceholderWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Dancing Script", cursive;
-  color: #ffffff;
-  font-size: 78px;
-        
-  @media screen and (max-width: 800px) {
-    font-size: 64px;
-  }
-  @media screen and (max-width: 468px) {
-    font-size: 32px;
-  }
 `;

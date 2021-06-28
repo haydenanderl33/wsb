@@ -206,17 +206,3 @@ export const Section2Description = styled.p`
   padding: 16px;
   text-align: center;
 `;
-export const PlaceholderContainer = styled.div`
-height: auto;
-width: 100%;
-background: #B2CEEC ;
-`;
-export const PlaceholderWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Dancing Script", cursive;
-  color: #ffffff;
-        
-        font-size: calc(48px + 2vmin);
-`;

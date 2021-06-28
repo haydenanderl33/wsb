@@ -18,8 +18,6 @@ import {
   Section2Name,
   Section2Calories,
   Section2Description,
-  PlaceholderContainer,
-  PlaceholderWrapper,
 } from "./menu-elements";
 import acaiData from "../../AcaiData";
 // import { useEffect } from "react";
@@ -49,7 +47,7 @@ const AcaiMenu = () => {
         </Section1Container>
       </MenuSection1>
       <MenuSection2>
-        {/* <Section2Container>
+        <Section2Container>
           <Section2Wrapper>
             {acaiMenuItems.map((item) => {
               return (
@@ -64,11 +62,7 @@ const AcaiMenu = () => {
               );
             })}
           </Section2Wrapper>
-        </Section2Container> */}
-
-        <PlaceholderContainer>
-          <PlaceholderWrapper>Coming Soon!</PlaceholderWrapper>
-        </PlaceholderContainer>
+        </Section2Container>
       </MenuSection2>
     </>
   );
