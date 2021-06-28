@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "../Navbar/navbar-index";
 import Sidebar from "../SideBar/sidebar-index";
-import AcaiMenu from '../AcaiMenu/acai-menu-index'
+import AcaiMenu from '../Menus/acai-menu-index'
 import Footer from '../Footer/footer-index'
 import data from "../../Data";
 import { MenupageContainer } from "./acai-menupage-elements";

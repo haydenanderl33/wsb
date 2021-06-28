@@ -4,7 +4,7 @@ import Sidebar from "../SideBar/sidebar-index";
 import Footer from '../Footer/footer-index'
 import data from "../../Data";
 import {PitayaMenuPageContainer} from "./pitaya-menu-elements";
-import PitayaMenu from "../PitayaMenu/pitaya-menu-index";
+import PitayaMenu from "../Menus/pitaya-menu-index";
 
 const PitayaMenuPage = () => {
   const [open, setOpen] = useState(false);

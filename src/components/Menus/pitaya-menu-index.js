@@ -18,7 +18,7 @@ import {
   Section2Name,
   Section2Calories,
   Section2Description,
-} from '../AcaiMenu/menu-elements';
+} from './menu-elements';
 import pitayaData from "../../PitayaData";
 
 const PitayaMenu = () => {
