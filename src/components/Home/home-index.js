@@ -10,6 +10,9 @@ import {
   Section1Btn,
   ShortArrow,
   LongArrow,
+  HomeSection2,
+  PlaceholderContainer,
+  PlaceholderWrapper,
 } from "./home-elements";
 import acaiBowl from "../../images/acaiBowl.jpg";
 
@@ -20,8 +23,8 @@ const Home = () => {
     setHover(!hover);
   };
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
@@ -43,6 +46,11 @@ const Home = () => {
           </Section1BtnContainer>
         </Section1Container>
       </HomeSection1>
+      <HomeSection2>
+        <PlaceholderContainer>
+          <PlaceholderWrapper>Fuel Your Wildside</PlaceholderWrapper>
+        </PlaceholderContainer>
+      </HomeSection2>
     </>
   );
 };

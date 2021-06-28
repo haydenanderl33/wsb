@@ -18,6 +18,8 @@ import {
   Section2Name,
   Section2Calories,
   Section2Description,
+  PlaceholderContainer,
+  PlaceholderWrapper,
 } from "./menu-elements";
 import pitayaData from "../../PitayaData";
 // import { useEffect } from "react";
@@ -47,7 +49,7 @@ const PitayaMenu = () => {
         </Section1Container>
       </MenuSection1>
       <MenuSection2>
-        <Section2Container>
+        {/* <Section2Container>
           <Section2Wrapper>
             {pitayaMenuItmes.map((item) => {
               return (
@@ -62,7 +64,12 @@ const PitayaMenu = () => {
               );
             })}
           </Section2Wrapper>
-        </Section2Container>
+        </Section2Container> */}
+
+
+<PlaceholderContainer>
+          <PlaceholderWrapper>Coming Soon!</PlaceholderWrapper>
+        </PlaceholderContainer>
       </MenuSection2>
     </>
   );
