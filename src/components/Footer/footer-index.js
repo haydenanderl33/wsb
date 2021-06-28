@@ -31,7 +31,8 @@ const Footer = ({ data }) => {
                 <PhoneNumber>{data.phoneAlt}</PhoneNumber>
               </PhoneNumberWrapper>
               <EmailWrapper>
-                <Email href='mailto:wildsidebowls@gmail.com' >{data.email}</Email>
+                {/* <Email href='mailto:wildsidebowls@gmail.com' >{data.email}</Email> */}
+                <Email  href={`mailto${data.email}`} >{data.email}</Email>
               </EmailWrapper>
             </Col2>
             <Col3></Col3>

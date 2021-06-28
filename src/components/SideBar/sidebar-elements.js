@@ -30,7 +30,7 @@ export const SidebarWrapper = styled.div`
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-rows: repeat(6, 108px);
+  grid-template-rows: 108px repeat(5, 78px);
   transition: transform 1s;
 transform: ${({ shift }) => (shift ? "translate(0,-20px)" : "0")};
 `;
@@ -96,7 +96,7 @@ export const SidebarRowContainer5 = styled.div`
 `;
 
 export const SidebarRowBorderBox = styled.div`
-  height: 100px;
+  height: 78px;
   width: 80%;
   border-top: 2px solid #ffffff;
 `;
@@ -115,7 +115,6 @@ export const PhoneNumberWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 24px;
 `;
 export const PhoneIcon = styled(Phone)`
   font-size: 24px;
@@ -142,7 +141,6 @@ export const EmailWrapper = styled.div`
 export const Email = styled.div`
   font-size: 24px;
   color: #ffffff;
-  padding-top: 24px;
   font-weight: bold;
 
   @media screen and (max-width: 800px) {
