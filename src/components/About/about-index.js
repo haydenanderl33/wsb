@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import acaiBowlWithSpoon from "../../images/acaiBowlWithSpoon.jpg";
 import {
   AboutSection1,
@@ -11,6 +12,10 @@ import {
   Section2Wrapper,
 } from "./about-elements";
 const About = ({ data }) => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   
   return (
     <>

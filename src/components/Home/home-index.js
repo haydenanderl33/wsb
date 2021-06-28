@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   HomeSection1,
   HomeBackgroudImage,
@@ -19,6 +19,9 @@ const Home = () => {
   const onHover = () => {
     setHover(!hover);
   };
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <>

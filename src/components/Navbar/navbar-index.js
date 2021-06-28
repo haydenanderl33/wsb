@@ -16,7 +16,7 @@ import {
 } from "./navbar-elements";
 
 const Navbar = ({ open, setOpen, data }) => {
-  const [transparent, setTransparent] = useState(true);
+  const [transparent, setTransparent] = useState(false);
   const toggle = () => setOpen(!open);
   const solidNav = () =>
     window.scrollY >= 80 ? setTransparent(true) : setTransparent(false);
@@ -24,6 +24,10 @@ const Navbar = ({ open, setOpen, data }) => {
   useEffect(() => {
     window.addEventListener("scroll", solidNav);
   }, []);
+
+  useEffect(() => {
+    setTransparent(false)
+  }, [])
   return (
     <>
       <NavbarContainer>

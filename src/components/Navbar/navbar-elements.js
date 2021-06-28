@@ -19,6 +19,7 @@ export const NavbarWrapper = styled.div`
   grid-template-columns: repeat(3, 1fr);
   /* grid-column-gap: 24px; */
   transition: transform 1s;
+  background: transparent;
   background: ${({ transparent }) => (transparent ? "#bc4e80" : "transparent")};
   transform: ${({ transparent }) => (transparent ? "translate(0,-20px)" : "0")};
 

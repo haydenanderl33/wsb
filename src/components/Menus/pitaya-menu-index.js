@@ -18,11 +18,16 @@ import {
   Section2Name,
   Section2Calories,
   Section2Description,
-} from './menu-elements';
+} from "./menu-elements";
 import pitayaData from "../../PitayaData";
+// import { useEffect } from "react";
 
 const PitayaMenu = () => {
   let pitayaMenuItmes = pitayaData;
+
+  // useEffect(() => {
+  //   window.scrollTo(0, 0)
+  // }, [])
 
   return (
     <>
@@ -33,17 +38,10 @@ const PitayaMenu = () => {
           <Section1H2>Açaí and Pitaya bowls</Section1H2>
           <Section1BtnContainer>
             <Section1BtnWrapper>
-            <Section1Btn1 to='/menu/açaí-bowls'
-              >
-                Açaí Bowls
-              </Section1Btn1>
+              <Section1Btn1 to="/menu/açaí-bowls">Açaí Bowls</Section1Btn1>
             </Section1BtnWrapper>
             <Section1BtnWrapper>
-              <Section1Btn2 to='/menu/pitaya-bowls'
-
-              >
-                Pitaya Bowls
-              </Section1Btn2>
+              <Section1Btn2 to="/menu/pitaya-bowls">Pitaya Bowls</Section1Btn2>
             </Section1BtnWrapper>
           </Section1BtnContainer>
         </Section1Container>

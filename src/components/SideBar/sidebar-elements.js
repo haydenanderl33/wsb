@@ -27,12 +27,13 @@ export const SidebarContainer = styled.aside`
 `;
 
 export const SidebarWrapper = styled.div`
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   display: grid;
   grid-template-rows: 108px repeat(5, 78px);
   transition: transform 1s;
 transform: ${({ shift }) => (shift ? "translate(0,-20px)" : "0")};
+height: ${({ open }) => (open ? "100%" : "0")};
 `;
 export const SidebarRowContainer1 = styled.div`
   display: flex;

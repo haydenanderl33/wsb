@@ -36,12 +36,16 @@ useEffect(() => {
   window.addEventListener("scroll", changeHeight);
 }, []);
 
+useEffect(() => {
+  window.scrollTo(0, 0)
+}, [])
+
   return (
     <>
       {open ? (
         <>
-          <SidebarContainer open={open} >
-            <SidebarWrapper shift={shift}>
+          <SidebarContainer  >
+            <SidebarWrapper shift={shift} open={open}>
               <SidebarRowContainer1>
                 <CancelX onClick={toggle} />
               </SidebarRowContainer1>
