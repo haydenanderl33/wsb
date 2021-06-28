@@ -58,9 +58,10 @@ export const PhoneIcon = styled(Phone)`
   font-size: 24px;
   color: #ffffff;
 `;
-export const PhoneNumber = styled.p`
+export const PhoneNumber = styled.a`
   font-size: 24px;
   color: #ffffff;
+  text-decoration: none;
 
   @media screen and (max-width: 800px) {
     font-size: 16px;

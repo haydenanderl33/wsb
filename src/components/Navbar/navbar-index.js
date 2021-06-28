@@ -38,7 +38,7 @@ const Navbar = ({ open, setOpen, data }) => {
           </NavbarColumn2>
           <NavbarColumn3>
             <PhoneIcon />
-            <PhoneNumber>{data.phoneNumber}</PhoneNumber>
+            <PhoneNumber href={`tel:${data.phoneNumber}`}>{data.phoneNumber}</PhoneNumber>
           </NavbarColumn3>
         </NavbarWrapper>
         <NavbarWrapperMobile transparent={transparent}>

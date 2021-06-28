@@ -28,11 +28,11 @@ const Footer = ({ data }) => {
             <Col1>#fuelyourwildside</Col1>
             <Col2>
               <PhoneNumberWrapper>
-                <PhoneNumber>{data.phoneAlt}</PhoneNumber>
+                <PhoneNumber href={`tel:${data.phoneNumber}`}>{data.phoneAlt}</PhoneNumber>
               </PhoneNumberWrapper>
               <EmailWrapper>
                 {/* <Email href='mailto:wildsidebowls@gmail.com' >{data.email}</Email> */}
-                <Email  href={`mailto${data.email}`} >{data.email}</Email>
+                <Email  href={`mailto:${data.email}`} >{data.email}</Email>
               </EmailWrapper>
             </Col2>
             <Col3></Col3>

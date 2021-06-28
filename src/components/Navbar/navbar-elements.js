@@ -66,9 +66,12 @@ export const NavbarColumn3 = styled.div`
 export const PhoneIcon = styled(Phone)`
   font-size: 24px;
 `;
-export const PhoneNumber = styled.div`
+export const PhoneNumber = styled.a`
   font-size: 24px;
   padding-left: 24px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
 `;
 
 export const NavbarWrapperMobile = styled.div`

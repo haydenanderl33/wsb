@@ -65,10 +65,10 @@ useEffect(() => {
                   <SidebarRowContainer5Wrapper>
                     <PhoneNumberWrapper>
                       <PhoneIcon />
-                      <PhoneNumber>{data.phoneNumber}</PhoneNumber>
+                      <PhoneNumber href={`tel:${data.phoneNumber}`}>{data.phoneNumber}</PhoneNumber>
                     </PhoneNumberWrapper>
                     <EmailWrapper>
-                      <Email>{data.email}</Email>
+                      <Email href={`mailto:${data.phoneNumber}`}>{data.email}</Email>
                     </EmailWrapper>
                   </SidebarRowContainer5Wrapper>
                 </SidebarRowBorderBox>

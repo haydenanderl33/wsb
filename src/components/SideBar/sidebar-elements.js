@@ -120,11 +120,13 @@ export const PhoneIcon = styled(Phone)`
   font-size: 24px;
   color: #ffffff;
 `;
-export const PhoneNumber = styled.p`
+export const PhoneNumber = styled.a`
   font-size: 24px;
   color: #ffffff;
   padding: 0 24px;
   font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
 
   @media screen and (max-width: 800px) {
     font-size: 16px;
@@ -138,10 +140,12 @@ export const EmailWrapper = styled.div`
   justify-content: center;
   align-items: center;
 `;
-export const Email = styled.div`
+export const Email = styled.a`
   font-size: 24px;
   color: #ffffff;
   font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
 
   @media screen and (max-width: 800px) {
     font-size: 16px;
