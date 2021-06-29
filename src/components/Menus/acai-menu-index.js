@@ -20,14 +20,10 @@ import {
   Section2Description,
 } from "./menu-elements";
 import acaiData from "../../AcaiData";
-// import { useEffect } from "react";
 
 const AcaiMenu = () => {
   let acaiMenuItems = acaiData;
 
-  // useEffect(() => {
-  //   window.scrollTo(0, 0)
-  // }, [])
 
   return (
     <>

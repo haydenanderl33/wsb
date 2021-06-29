@@ -85,8 +85,11 @@ export const Section2Container = styled.div`
   height: 100%;
   width: 100%;
   display: flex;
-  padding: 24px 128px;
+  padding: 24px 256px;
   background: #b2ceec;
+  @media screen and (max-width: 1048px) {
+    padding: 24px 128px;
+  }
   @media screen and (max-width: 800px) {
     padding: 24px;
   }

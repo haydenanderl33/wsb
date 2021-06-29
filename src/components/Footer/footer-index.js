@@ -31,14 +31,13 @@ const Footer = ({ data }) => {
                 <PhoneNumber href={`tel:${data.phoneNumber}`}>{data.phoneAlt}</PhoneNumber>
               </PhoneNumberWrapper>
               <EmailWrapper>
-                {/* <Email href='mailto:wildsidebowls@gmail.com' >{data.email}</Email> */}
                 <Email  href={`mailto:${data.email}`} >{data.email}</Email>
               </EmailWrapper>
             </Col2>
             <Col3></Col3>
           </FooterSection1>
           <FooterSection2>
-            <Col4>{data.address}</Col4>
+            <Col4 href={`https://www.google.com/maps/place/Wildside+Bowls/@40.5285888,-111.854563,17z/data=!3m1!4b1!4m5!3m4!1s0x87527dc4a935ad33:0xd19e733d7cadd46c!8m2!3d40.5285847!4d-111.8523743`}>{data.address}</Col4>
             <Col5>
               <IconsWrapper href={data.ig}>
                 <Instagram />

@@ -100,8 +100,10 @@ export const FooterSection2 = styled.div`
     grid-template-rows: repeat(3, 1fr);
   }
 `;
-export const Col4 = styled.div`
+export const Col4 = styled.a`
+  color: #ffffff;
   display: flex;
+  text-decoration: none;
   justify-content: flex-start;
   align-items: center;
   font-weight: bold;
