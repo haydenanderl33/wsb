@@ -27,7 +27,7 @@ export const Section1Container = styled.div`
   width: 100%;
   z-index: 0;
   font-size: 24px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.33);
   justify-content: center;
   align-items: center;
   @media screen and (max-width: 800px) {
