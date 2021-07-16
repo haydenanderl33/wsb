@@ -1,8 +1,8 @@
 const acaiData = [
     {
         pictureSrc:'/images/acaiBowl.jpg',
-        name: 'Acai bowl',
-        calories:'700',
+        name: 'Basic Acai bowl',
+        calories:'https://checkout.square.site/buy/YZMMK5NYGSPSGNQMSRNE5YSO',
         description:'watermelon raspberry sherbet strawberries pineapples'
 
     },

@@ -52,7 +52,7 @@ const AcaiMenu = () => {
                     <Section2Img src={item.pictureSrc} />
                   </Section2ImgWrapper>
                   <Section2Name>{item.name}</Section2Name>
-                  <Section2Calories>{item.calories} calories</Section2Calories>
+                  <Section2Calories href={item.calories}>Buy Now</Section2Calories>
                   <Section2Description>{item.description}</Section2Description>
                 </Section2ItemContainer>
               );

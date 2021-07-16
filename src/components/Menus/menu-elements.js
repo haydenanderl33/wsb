@@ -193,7 +193,7 @@ export const Section2Name = styled.h2`
   align-items: center;
   padding: 4px;
 `;
-export const Section2Calories = styled.h3`
+export const Section2Calories = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
